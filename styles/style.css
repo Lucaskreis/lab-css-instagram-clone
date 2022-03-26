@@ -7,7 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background: linear-gradient(to bottom, #1c5380 26.5%, white 26.5% 100% ) ;
+  background: linear-gradient(to bottom, #1c5380 35%, white 35% 100% ) ;
 }
 
 .principal {
@@ -32,7 +32,6 @@ h1 {
   border: solid #194161 2px;
   padding: 12px 15px;
   
-  
 }
 .login-btn a {
   text-decoration: none; 
@@ -42,15 +41,18 @@ h1 {
 }
 .logo {
   height: 70px;
+  margin: 25px 0px;
 }
 .cxtxt {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   width: 470px;
+  background-image: url("../images/frame.png");
   
 }
 .cxtxt article {
-  margin: 30px;
+  margin: 0px 30px;
   
 }
 
@@ -102,5 +104,5 @@ footer a {
 
 h5 {
   color: rgb(155, 155, 155);
-  margin: 25px;
+  margin: 40px;
 }
